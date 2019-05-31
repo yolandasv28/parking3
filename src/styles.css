@@ -244,6 +244,9 @@
 #mapaLatLng{
     height: 300px;
 }
+agm-map {
+  height: 300px;
+}
 
 img{
   position: relative;

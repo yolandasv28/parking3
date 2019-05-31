@@ -7,12 +7,14 @@
         </div>
         <div class="col-md-9">
             <div id="map">
-                <!-- <agm-map [latitude]="lat" [longitude]="lng">
-                    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-                </agm-map>                                             -->
-                <agm-map [latitude]="-16.3988900" [longitude]="-71.5350000">
+                <agm-map [latitude]="miPosicion.lat" [longitude]="miPosicion.lng">
+                    <agm-marker [latitude]="miPosicion.lat" [longitude]="miPosicion.lng"></agm-marker>
+                </agm-map> 
+                
+                
+                <!-- <agm-map [latitude]="-16.3988900" [longitude]="-71.5350000">
                         <agm-marker [latitude]="-16.3988900" [longitude]="-71.5350000"></agm-marker>
-                    </agm-map>  
+                    </agm-map>   -->
             </div>
         </div>
     </div>
