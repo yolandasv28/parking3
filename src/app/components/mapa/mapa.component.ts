@@ -9,12 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class MapaComponent implements OnInit {
 
   title: string = 'My first AGM project';
-  
-
-  miPosicion = {
-    lat:-16.3988900,
-    lng:-71.5350000
-      }
+    lat:number=-16.3988900;
+    lng:number=-71.5350000;
+     
 
   
   constructor() {
@@ -29,11 +26,9 @@ export class MapaComponent implements OnInit {
   
 
   getLocation(){
-
-    miPosicion = {
-      lat:-15.3988900,
-      lng:-72.5350000
-        }
+   
+      lat=-15.3988900;
+      lng=-72.5350000 ;   
     
     }
 }

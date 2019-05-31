@@ -9,7 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
+import { AgmCoreModule } from '@agm/core';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { FirebaseComponent } from './components/firebase/firebase.component';
 
@@ -37,7 +37,7 @@ import { FirebaseComponent } from './components/firebase/firebase.component';
 
     })     
   ],
-  providers: [GoogleMapsAPIWrapper],
+  providers: [],
   bootstrap: [AppComponent],
 
 })
