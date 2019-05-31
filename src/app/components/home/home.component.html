@@ -1,0 +1,63 @@
+
+<div class="ct" id="t1">   
+    <div class="ct" id="t2">
+        <div class="ct" id="t3">
+            <div class="ct" id="t4">
+                <section>            
+
+
+                    <div class="page" id="p1">                            
+                                                      
+
+                    </div>
+
+                    <div class="page" id="p2">
+                        <li class="icon fas fa-car-side">
+                            <span class="title">Promociones</span>
+                        </li>
+                    </div>
+                    <div class="page" id="p3">
+                        <li class="icon fas fa-award">
+                            <span class="title">Ranking estacionamientos</span>
+                        </li>
+                    </div>
+                    <div class="page" id="p4">
+                        <li class="icon fas fa-search-location">
+                            <span class="title">Dribbble</span>
+                            <span class="hint">
+                                <a href="#" target="_blank">Buscar estacionamiento</a>
+                            </span>
+                        </li>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 bg-light p-5">
+                                    <button class="btn btn-success btn-block" id="btnPosicion">Mi Ubicación</button>
+                                    <button class="btn btn-primary btn-block" id="btnGetEstacionamientos">Estacionamientos</button>
+                                    <button class="btn btn-dark btn-block" id="btnBorrarPosicion">Limpiar</button>
+                                </div>
+                                <div class="col-md-9">
+                                    <div id="map">
+                                        <!-- <agm-map [latitude]="lat" [longitude]="lng">
+                                            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                                        </agm-map>                                             -->
+                                        <agm-map [latitude]="-16.3988900" [longitude]="-71.5350000">
+                                                <agm-marker [latitude]="-16.3988900" [longitude]="-71.5350000"></agm-marker>
+                                            </agm-map>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row bg-light m-5 p-5" id="estacionamientos"></div>
+            </div>  
+            
+            <hr>    
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="btnCrearCancha">Reservar</button>
+            </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
