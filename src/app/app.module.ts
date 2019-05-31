@@ -29,12 +29,8 @@ import { FirebaseComponent } from './components/firebase/firebase.component';
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCwqi9yx2ts6NJdV1ATpbYTaOAXVcxHKPY'
-      // AIzaSyDFT55Qs8eoTCRS0Js_e9IyZJn8RsSz0P4'
-      // AIzaSyDfJO48nLxh390YRzexJrDRFRoLx9lRlac'
-      // 'AIzaSyCh7rSz7BbqbYOdUcy7t0GTNgCaUxVvNmU'
-         
-
+      apiKey: 'AIzaSyBu4_pYPkfjS9PcXjFpTf50kOYF0YmdVN0'
+     
     })     
   ],
   providers: [],

@@ -19,16 +19,14 @@ export class MapaComponent implements OnInit {
     
    }
 
-  ngOnInit() {
-       
+  ngOnInit() {      
     
-  }
-  
+  }  
 
   getLocation(){
    
-      lat=-15.3988900;
-      lng=-72.5350000 ;   
+      this.lat=-15.3988900;
+      this.lng=-72.5350000 ;   
     
     }
 }

@@ -96,12 +96,7 @@
                         </li>
                     </div>
                     <div class="page" id="p4">
-                        <li class="icon fas fa-search-location">
-                            <span class="title">Dribbble</span>
-                            <span class="hint">
-                                <a href="#" target="_blank">Buscar estacionamiento</a>
-                            </span>
-                        </li>
+                        
 
                         <div class="container">
                             <div class="row">
@@ -111,17 +106,88 @@
                                     <button class="btn btn-dark btn-block" id="btnBorrarPosicion">Limpiar</button>
                                 </div>
                                 <div class="col-md-9">
-                                    <div id="map">
+                                    <!-- <div id="map"> -->
                                         <!-- <agm-map [latitude]="lat" [longitude]="lng">
                                             <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
                                         </agm-map>                                             -->
                                         <agm-map [latitude]="-16.3988900" [longitude]="-71.5350000">
                                                 <agm-marker [latitude]="-16.3988900" [longitude]="-71.5350000"></agm-marker>
+                                                <agm-marker [latitude]="-16.3955840" [longitude]="-71.2330000"></agm-marker>
+                                                <agm-marker [latitude]="-16.9803323" [longitude]="-71.2220000"></agm-marker>
+                                                <agm-marker [latitude]="-16.3113300" [longitude]="-71.1111000"></agm-marker>
+                                                <agm-marker [latitude]="-16.2221000" [longitude]="-71.1341000"></agm-marker>
                                             </agm-map>  
-                                    </div>
+
+                                          
+                                    <!-- </div> -->
                                 </div>
                             </div>
-                            <div class="row bg-light m-5 p-5" id="estacionamientos"></div>
+                            <div class="row bg-light m-5 p-5" id="estacionamientos">
+                                <table border="2" align="center" id="tablita">
+                                    <thead>
+                                      <tr>
+                                        <th>Id</th>
+                                        <th>Nombre</th>
+                                        <th>Dirección</th>
+                                        <th>Horario de Atención</th>
+                                        <th>Estado</th>
+                                        <!-- <th>Latitud</th>
+                                        <th>Longitud</th> -->
+                                      </tr>
+                                    </thead>
+                      
+                                    <tbody>
+                                      <tr>
+                                        <td>1</td>
+                                        <td>Alas Peruanas</td>
+                                        <td> Av. Paseo de La Cultura 129 </td>
+                                        <td>24 Horas</td>
+                                        <td>
+                                                <a href="https://parkingfrontend2018.herokuapp.com/parkings/cells"  target="_blank">
+                                                       Reservar
+                                                    </a>  </td>
+                                      </tr>
+                                      <tr>
+                                        <td>2</td>
+                                        <td>Titan SAC</td>
+                                        <td> Av. Daniel Alcides Carrión 603 </td>
+                                        <td>24 Horas</td>
+                                        <td><a href="https://parkingfrontend2018.herokuapp.com/parkings/cells"  target="_blank">
+                                            Reservar
+                                         </a></td>
+                                      </tr>
+                                      <tr>
+                                        <td>3</td>
+                                        <td>Cochera Vidaurrazaga</td>
+                                        <td>Av. Vidaurrazaga 23</td>
+                                        <td>07:00 - 20:00 </td>
+                                        <td><a href="https://parkingfrontend2018.herokuapp.com/parkings/cells"  target="_blank">
+                                            Reservar
+                                         </a></td>
+                                      </tr>
+                                      <tr>
+                                        <td>4</td>
+                                        <td>Estacionamiento - Villa Medica</td>
+                                        <td>Villa medica 135</td>
+                                        <td>24 Horas</td>
+                                        <td><a href="https://parkingfrontend2018.herokuapp.com/parkings/cells"  target="_blank">
+                                            Reservar
+                                         </a>  </td>
+                                      </tr>
+                                      <tr>
+                                        <td>5</td>
+                                        <td>Aparcamiento  Gratuito</td>
+                                        <td>Av Pizarro 157</td>
+                                        <td>24 Horas</td>
+                                        <td><a href="https://parkingfrontend2018.herokuapp.com/parkings/cells"  target="_blank">
+                                            Reservar
+                                         </a> </td>
+                                      </tr>
+                                    </tbody>	
+                                  </table>
+                             
+
+                            </div>
             </div>  
             
             <hr>    
