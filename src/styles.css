@@ -46,6 +46,8 @@
   ul {
    position: fixed; 
    z-index: 1;
+   /* height:
+    600px; */
   }
   #t1:target .page#p1 {
       transform: translateX(0);  
@@ -115,7 +117,7 @@
     left: 0;
     /*right: 0;*/
     margin: auto;
-    height: 280px;
+    height: 700px;
     width: 10%;
     padding: 0;
     text-align: center;
@@ -241,4 +243,18 @@
 }
 #mapaLatLng{
     height: 300px;
+}
+
+img{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 25%;
+ 
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1.3;
+
 }

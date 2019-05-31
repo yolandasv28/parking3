@@ -1199,6 +1199,8 @@ iframe {
 	background: url(../images/main-bg.jpg)  repeat;
 	padding: 80px 0;
 	position: flex;
+	height: 600px;
+	
 
 }
 .banr-head .text-area {
